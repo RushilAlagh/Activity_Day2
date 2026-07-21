@@ -1,1 +1,36 @@
-This is file3
+MERGE_TASK – FULL WORKFLOW SUMMARY
+1. Create project folder
+  mkdir /c/merge_task
+  cd /c/merge_task
+2. Initialize Git repository
+  git init
+3. Create first file
+  notepad file1.txt
+4. Create main branch
+  git checkout -b main
+5. Stage and commit initial file
+  git add .
+  git commit -m "file 1 added"
+6. Verify Branch
+  git branch
+  output:- *main
+7. Add remote GitHub repository
+  git remote add origin https://github.com/atlurimokshitha-dot/merge_task.git
+8. Push main branch to GitHub
+  git push -u origin main
+9. Create feature branch
+  git checkout -b f1
+10. Modify file
+  notepad file1.txt
+11. Stage and commit changes
+  git add .
+  git commit -m "Feature added successfully"
+12. Switch back to main
+  git checkout main
+13. Merge feature branch into main
+  git merge f1
+14. Commit merge message
+  git add.
+  git commit -m "Merged Successfully"
+15.Push merged changes to to Github
+  git push

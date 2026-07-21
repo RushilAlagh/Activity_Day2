@@ -34,3 +34,5 @@ MERGE_TASK – FULL WORKFLOW SUMMARY
   git commit -m "Merged Successfully"
 15.Push merged changes to to Github
   git push
+This is file3
+hi bye hola
